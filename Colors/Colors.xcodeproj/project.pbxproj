@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		34BD80601F9672E100E9876F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD805F1F9672E100E9876F /* AppDelegate.swift */; };
-		34BD80621F9672E100E9876F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD80611F9672E100E9876F /* ViewController.swift */; };
 		34BD80651F9672E100E9876F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34BD80631F9672E100E9876F /* Main.storyboard */; };
 		34BD80671F9672E100E9876F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34BD80661F9672E100E9876F /* Assets.xcassets */; };
 		34BD806A1F9672E100E9876F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34BD80681F9672E100E9876F /* LaunchScreen.storyboard */; };
 		34BD80751F9672E100E9876F /* ColorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD80741F9672E100E9876F /* ColorsTests.swift */; };
 		34BD80801F9672E100E9876F /* ColorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD807F1F9672E100E9876F /* ColorsUITests.swift */; };
+		34BD808E1F9673AE00E9876F /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD808D1F9673AE00E9876F /* ColorsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		34BD805C1F9672E100E9876F /* Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34BD805F1F9672E100E9876F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		34BD80611F9672E100E9876F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		34BD80641F9672E100E9876F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34BD80661F9672E100E9876F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34BD80691F9672E100E9876F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		34BD807B1F9672E100E9876F /* ColorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34BD807F1F9672E100E9876F /* ColorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsUITests.swift; sourceTree = "<group>"; };
 		34BD80811F9672E100E9876F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34BD808D1F9673AE00E9876F /* ColorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +81,7 @@
 				34BD80731F9672E100E9876F /* ColorsTests */,
 				34BD807E1F9672E100E9876F /* ColorsUITests */,
 				34BD805D1F9672E100E9876F /* Products */,
+				34BD80811F9672E100E9876F /* Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,8 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				34BD805F1F9672E100E9876F /* AppDelegate.swift */,
-				34BD80611F9672E100E9876F /* ViewController.swift */,
 				34BD80631F9672E100E9876F /* Main.storyboard */,
+				34BD808D1F9673AE00E9876F /* ColorsViewController.swift */,
 				34BD80661F9672E100E9876F /* Assets.xcassets */,
 				34BD80681F9672E100E9876F /* LaunchScreen.storyboard */,
 				34BD806B1F9672E100E9876F /* Info.plist */,
@@ -120,7 +121,6 @@
 			isa = PBXGroup;
 			children = (
 				34BD807F1F9672E100E9876F /* ColorsUITests.swift */,
-				34BD80811F9672E100E9876F /* Info.plist */,
 			);
 			path = ColorsUITests;
 			sourceTree = "<group>";
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34BD80621F9672E100E9876F /* ViewController.swift in Sources */,
+				34BD808E1F9673AE00E9876F /* ColorsViewController.swift in Sources */,
 				34BD80601F9672E100E9876F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
